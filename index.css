@@ -1,0 +1,70 @@
+*{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #1F1D36;
+}
+div{
+    background-color: #EEEBDD;
+    margin-left: 590px;
+    padding: 15px;
+    width: 500px;
+    border: 5px solid #950101;
+}
+p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input{
+    padding: 6px;
+    border-radius: 25px;
+    font-weight: 600;
+    border:4px solid rebeccapurple;
+    margin-left: 390px;
+}
+h5{
+    font-size: 23px;
+    font-family: 'M PLUS Code Latin', sans-serif;
+}
+h1{
+    font-family: 'M PLUS Code Latin', sans-serif;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+#first::first-letter{
+    color: blue;
+    font-size: 40px;
+}
+#second::first-letter{
+    color: #F0A500;
+    font-size: 30px;
+}
+p:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: coral;
+    font-size: 20px;
+    font-family: 'M PLUS Code Latin', sans-serif;
+}
+div>p:hover{
+    font-size: 20px;
+    color: #27cca8;
+}
+h1:hover{
+    color: #B24080;
+    font-size: x-large;
+}
+h5:hover{
+    color: #e61e1e;
+    font-size: 30px;
+}
+div>h1{
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+div>h1:hover{
+    color: #f30a50;
+    font-size: x-large;
+}
+
